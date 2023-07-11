@@ -219,6 +219,7 @@ section .flowers-option > img{
 }
 .subscribe input::placeholder{
     padding-left: 15px;
+    color: #73727266;
 }
 section .latest-deals div{
     padding-top: 1px;
@@ -239,7 +240,6 @@ footer div h2{
     font-weight: 800;
     text-align: center;
     padding-bottom: 24px;
-    
 }
 footer div span{
     color: #E55473;
@@ -263,9 +263,6 @@ footer div .copy-right{
 footer div .container{
     margin-left: 10%;
 }
-
-
-
 section .feed-background{
     height: 449px;
     padding-bottom: 50px;
@@ -276,7 +273,7 @@ section div .inpu input{
     margin-right: 15px;
     border: none;
     border-radius: 10px;
-    /* margin-top: 15px; */
+
 }
 .feedback .head-title span{
     color: #E55473;
@@ -288,7 +285,7 @@ section div .inpu input#name{
 section div .inpu input::placeholder{
     padding-left: 10px;
     font-family: 'Lato', sans-serif;
-    color: #b4adad66;
+    color: #73727266;
 }
 section div textarea{
     border: none;
@@ -299,7 +296,7 @@ section div textarea{
 section div textarea::placeholder{
     padding: 10px 0 0 10px;
     font-family: 'Lato', sans-serif;
-    color: #b4adad66;
+    color: #73727266;
 }
 .feedback{
     display: flex;
