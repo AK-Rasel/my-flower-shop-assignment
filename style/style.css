@@ -1,0 +1,64 @@
+body{
+    height: 5000px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.flax{
+    display: flex;
+}
+.justify-around{
+    justify-content: space-around;
+}
+    
+
+.center-align{
+    align-items: center;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+header{
+    background-color: rgba(229, 84, 115, 0.10);
+    ;
+}
+section .benar-image img{
+    height: 800px;
+    margin-top: 50px;
+    margin-bottom: -4px;
+}
+section .benar-text h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    width: 708px;
+    font-size: 80px;
+    margin-bottom: 10px;
+    color: #272727;
+}
+section .benar-text p{
+    width: 634px;
+    font-family: 'Lato', sans-serif;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 30px 0;
+    
+}
+.primary-btn{
+    width: 177px;
+    height: 64px;
+    background-color: #dd4062;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.primary-btn:hover{
+    background-color: #E55473;
+    cursor: pointer;
+}
