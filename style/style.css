@@ -14,7 +14,7 @@ body{
 .justify-center{
     justify-content: center;
 }
-    
+
 
 .center-align{
     align-items: center;
@@ -52,8 +52,7 @@ section .banner-text p{
 }
 /* Button */
 .primary-btn{
-    width: 177px;
-    height: 64px;
+    padding: 20px 43px;
     background-color: #dd4062;
     border: none;
     border-radius: 8px;
@@ -65,6 +64,7 @@ section .banner-text p{
 .primary-btn:hover{
     background-color: #E55473;
     cursor: pointer;
+    
 }
 /* head-title */
 main  .head-title{
@@ -162,4 +162,36 @@ main .head-title p{
 }
 .yellow-flower div img{
     margin-bottom: -68px;
+}
+/* Hot Deal section */
+.hot-deal{
+    background-color: #E554730D;
+    margin-top: 128px;
+    text-align: center;
+}
+.deal-image img{
+    height: 400px;
+    padding: 120px 0;
+    margin-left: 50px;
+}
+section .deal-text{
+    margin-right: 50px;
+}
+section .deal-text h2{
+    font-family: 'Lato', sans-serif;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+section .deal-text h2 span{
+    color: #E55473;
+}
+section .deal-text p{
+    font-family: 'Lato', sans-serif;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0  30px 0;
 }
