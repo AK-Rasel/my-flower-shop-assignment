@@ -60,7 +60,7 @@ section .banner-text p{
     font-family: 'Lato', sans-serif;
 }
 .primary-btn:hover{
-    background-color: #E55473;
+    background-color: #272727;
     cursor: pointer;
     
 }
@@ -217,6 +217,9 @@ section .flowers-option > img{
     border: none;
     border-radius: 8px;
 }
+.subscribe input[type="email"]{
+    padding-left: 25px;
+}
 .subscribe input::placeholder{
     padding-left: 15px;
     color: #73727266;
@@ -287,6 +290,10 @@ section div .inpu input::placeholder{
     font-family: 'Lato', sans-serif;
     color: #73727266;
 }
+section div input[type="text"]{
+    padding-left: 20px;
+
+}
 section div textarea{
     border: none;
     height: 140px;
@@ -297,6 +304,11 @@ section div textarea::placeholder{
     padding: 10px 0 0 10px;
     font-family: 'Lato', sans-serif;
     color: #73727266;
+
+}
+section div textarea[type="text"]{
+    padding-left: 20px;
+    padding-top: 20px;
 }
 .feedback{
     display: flex;
