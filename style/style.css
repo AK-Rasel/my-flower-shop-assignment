@@ -11,6 +11,9 @@ body{
 .justify-around{
     justify-content: space-around;
 }
+.justify-center{
+    justify-content: center;
+}
     
 
 .center-align{
@@ -22,14 +25,14 @@ body{
 }
 header{
     background-color: rgba(229, 84, 115, 0.10);
-    ;
+
 }
-section .benar-image img{
+section .banner-image img{
     height: 800px;
     margin-top: 50px;
     margin-bottom: -4px;
 }
-section .benar-text h1{
+section .banner-text h1{
     font-family: 'Lato', sans-serif;
     font-weight: 800;
     width: 708px;
@@ -37,7 +40,7 @@ section .benar-text h1{
     margin-bottom: 10px;
     color: #272727;
 }
-section .benar-text p{
+section .banner-text p{
     width: 634px;
     font-family: 'Lato', sans-serif;
     color: rgba(39, 39, 39, 0.60);
@@ -47,6 +50,7 @@ section .benar-text p{
     padding: 30px 0;
     
 }
+/* Button */
 .primary-btn{
     width: 177px;
     height: 64px;
@@ -61,4 +65,101 @@ section .benar-text p{
 .primary-btn:hover{
     background-color: #E55473;
     cursor: pointer;
+}
+/* head-title */
+main  .head-title{
+    text-align: center;
+    margin-top: 178px;
+}
+main .head-title h2{
+    font-family: 'Lato', sans-serif;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+main .head-title p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.60);
+    width: 594px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+.all-flowers{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+/* pink-flower */
+.pink-flower div{
+    width: 446px;
+    height: 538px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.pink-flower div img{
+    margin-bottom: -110px;
+}
+.pink-flower h6{
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration: underline;
+    padding-top: 10px;   
+}
+.pink-flower{
+    text-align: center;
+    width: 446px;
+}
+/* buffet */
+.flower-buffet{
+    text-align: center;
+    width: 446px;
+}
+.flower-buffet div{
+    width: 446px;
+    height: 538px;
+    background-color: rgba(39, 161, 167, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.flower-buffet h6{
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+.flower-buffet div img{
+    margin-bottom: -110px;
+}
+/* yellow-flower */
+.yellow-flower{
+    text-align: center;
+    width: 446px;
+}
+.yellow-flower div{
+    width: 446px;
+    height: 538px;
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.yellow-flower h6{
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration: underline;
+    padding-top: 10px;
+    text-align: center;
+}
+.yellow-flower div img{
+    margin-bottom: -68px;
 }
