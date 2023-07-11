@@ -196,7 +196,34 @@ section .deal-text p{
     margin: 20px 0  30px 0;
 }
 /* instagram flower option */
+.flowers-option{
+    padding-left: 30px;
+    margin-left: 15px;
+    margin-bottom: 110px;
+}
 section .flowers-option > img{
     width: 320px;
    margin-right: 22px;
+}
+/* Subscribe */
+.latest-deals{
+    background: url('../Flower Asset/Rectangle 9.png') no-repeat;
+    height: 800px;
+
+    
+    
+
+}
+.subscribe input{
+    margin-right: 16px;
+    width: 700px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+}
+.subscribe input::placeholder{
+    padding-left: 15px;
+}
+section .latest-deals div{
+    padding-top: 1px;
 }
