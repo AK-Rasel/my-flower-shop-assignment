@@ -309,6 +309,7 @@ section div textarea::placeholder{
 section div textarea[type="text"]{
     padding-left: 20px;
     padding-top: 20px;
+    font-family: 'Lato', sans-serif;
 }
 .feedback{
     display: flex;
